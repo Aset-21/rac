@@ -57,5 +57,12 @@
     server: {
       port: 3000,
       open: true,
+      proxy: {
+        '/webhook': {
+          target: 'https://n8n.e-vko.kz',
+          changeOrigin: true,
+          secure: false,
+        },
+      },
     },
   });
