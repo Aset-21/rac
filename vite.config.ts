@@ -57,6 +57,9 @@
     server: {
       port: 3000,
       open: true,
+      host:true,
+      allowedHosts: [
+      'rac.e-vko.kz'],
       proxy: {
         '/webhook': {
           target: 'https://n8n.e-vko.kz',
