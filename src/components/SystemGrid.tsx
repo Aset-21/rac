@@ -1,14 +1,15 @@
 import { SystemCard } from "./SystemCard";
-import { 
-  Database, 
-  AlertTriangle, 
-  Map, 
-  FileText, 
-  Cpu, 
-  Thermometer, 
-  Megaphone, 
+import {
+  Database,
+  AlertTriangle,
+  Map,
+  FileText,
+  Cpu,
+  Thermometer,
+  Megaphone,
   FileBarChart,
-  MessageSquare
+  MessageSquare,
+  Leaf
 } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import { translations } from "../locales/translations";
@@ -24,7 +25,7 @@ export function SystemGrid() {
       description: t.systems.registries.description,
       icon: Database,
       url: "https://forms.situation-centre.kz",
-      color: "from-blue-500 to-blue-600"
+      color: "bg-gradient-to-br from-blue-500 to-blue-600"
     },
     {
       id: 2,
@@ -32,7 +33,7 @@ export function SystemGrid() {
       description: t.systems.situationCenter.description,
       icon: AlertTriangle,
       url: "https://situation-centre.kz",
-      color: "from-emerald-500 to-emerald-600"
+      color: "bg-gradient-to-br from-emerald-500 to-emerald-600"
     },
     {
       id: 3,
@@ -40,7 +41,7 @@ export function SystemGrid() {
       description: t.systems.floods.description,
       icon: Map,
       url: "https://maps.situation-centre.kz",
-      color: "from-amber-500 to-amber-600"
+      color: "bg-gradient-to-br from-amber-500 to-amber-600"
     },
     {
       id: 4,
@@ -48,7 +49,7 @@ export function SystemGrid() {
       description: t.systems.forms.description,
       icon: FileText,
       url: "https://arm.situation-centre.kz",
-      color: "from-purple-500 to-purple-600"
+      color: "bg-gradient-to-br from-purple-500 to-purple-600"
     },
     {
       id: 5,
@@ -56,7 +57,7 @@ export function SystemGrid() {
       description: t.systems.rac.description,
       icon: Cpu,
       url: "https://forms.situation-centre.kz/regionalanalysiscenter",
-      color: "from-pink-500 to-pink-600"
+      color: "bg-gradient-to-br from-pink-500 to-pink-600"
     },
     {
       id: 6,
@@ -64,7 +65,7 @@ export function SystemGrid() {
       description: t.systems.heatMonitoring.description,
       icon: Thermometer,
       url: "https://hs.e-vko.kz/embed/heat-monitoring",
-      color: "from-red-500 to-red-600"
+      color: "bg-gradient-to-br from-red-500 to-red-600"
     },
     {
       id: 7,
@@ -72,7 +73,7 @@ export function SystemGrid() {
       description: t.systems.mediaPlanning.description,
       icon: Megaphone,
       url: "https://media.situation-centre.kz/",
-      color: "from-cyan-500 to-cyan-600"
+      color: "bg-gradient-to-br from-cyan-500 to-cyan-600"
     },
     {
       id: 8,
@@ -80,7 +81,7 @@ export function SystemGrid() {
       description: t.systems.infoPolicy.description,
       icon: FileBarChart,
       url: "https://forms.situation-centre.kz/informationpolicy",
-      color: "from-indigo-500 to-indigo-600"
+      color: "bg-gradient-to-br from-indigo-500 to-indigo-600"
     },
     {
       id: 9,
@@ -88,7 +89,15 @@ export function SystemGrid() {
       description: t.systems.citizenPlatform.description,
       icon: MessageSquare,
       url: "https://crm.e-vko.kz",
-      color: "from-violet-500 to-violet-600"
+      color: "bg-gradient-to-br from-violet-500 to-violet-600"
+    },
+    {
+      id: 10,
+      title: t.systems.ecology.title,
+      description: t.systems.ecology.description,
+      icon: Leaf,
+      url: "https://auatech-vko.kz",
+      color: "#10b981"
     }
   ];
 
