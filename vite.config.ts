@@ -58,8 +58,8 @@
       port: 3000,
       open: true,
       host:true,
-      allowedHosts: [
-      'rac.e-vko.kz'],
+      // rac.e-vko.kz, and the developer sandboxes of the portal (https://3000-<id>.sbx.qc.e-vko.kz).
+      allowedHosts: ['rac.e-vko.kz', '.sbx.qc.e-vko.kz'],
       proxy: {
         '/webhook': {
           target: 'https://n8n.e-vko.kz',
