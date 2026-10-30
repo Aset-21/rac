@@ -4,6 +4,23 @@ export const translations = {
     subtitle:
       "Управления Цифровизации и архивов Восточно-Казахстанской области",
     openSystem: "Открыть систему",
+    logout: "Выйти",
+    auth: {
+      title: "Вход в систему",
+      description: "Введите логин и пароль для доступа к информационным системам",
+      username: "Логин",
+      usernamePlaceholder: "Введите логин",
+      password: "Пароль",
+      passwordPlaceholder: "Введите пароль",
+      showPassword: "Показать пароль",
+      hidePassword: "Скрыть пароль",
+      remember: "Запомнить меня",
+      submit: "Войти",
+      submitting: "Вход...",
+      required: "Заполните логин и пароль",
+      invalid: "Неверный логин или пароль",
+      networkError: "Не удалось связаться с сервером. Попробуйте позже",
+    },
     systems: {
       registries: {
         title: "Реестры данных",
@@ -62,6 +79,23 @@ export const translations = {
     subtitle:
       "Шығыс Қазақстан облысының цифрландыру және архивтер басқармасы",
     openSystem: "Жүйені ашыңыз",
+    logout: "Шығу",
+    auth: {
+      title: "Жүйеге кіру",
+      description: "Ақпараттық жүйелерге кіру үшін логин мен құпиясөзді енгізіңіз",
+      username: "Логин",
+      usernamePlaceholder: "Логинді енгізіңіз",
+      password: "Құпиясөз",
+      passwordPlaceholder: "Құпиясөзді енгізіңіз",
+      showPassword: "Құпиясөзді көрсету",
+      hidePassword: "Құпиясөзді жасыру",
+      remember: "Мені есте сақтау",
+      submit: "Кіру",
+      submitting: "Кіру...",
+      required: "Логин мен құпиясөзді толтырыңыз",
+      invalid: "Логин немесе құпиясөз қате",
+      networkError: "Сервермен байланыс орнамады. Кейінірек қайталаңыз",
+    },
     systems: {
       registries: {
         title: "Деректер тізілімдері",
